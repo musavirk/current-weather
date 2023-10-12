@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  color: #fff;
+}
+.centered-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search {
+  border-radius: 25px;
+  width: 200px;
+}
+p {
+  font-size: 2rem;
+}
+.temp h1 {
+  font-size: 6rem;
+}
+.search input {
+  font-size: 1.2rem;
+  border-radius: 25px;
+  padding: 5px 10px;
+  border: 2px solid rgb(59, 137, 180);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+::placeholder {
+  color: #fff;
+}
+.description {
+  font-style: oblique;
+}
